@@ -43,5 +43,9 @@ class TooShortTest {
     }
 
     //todo 2 you decide what happens on null input list, write a test and logic :)
+    @Test
+    void nullInput() {
+        assertEquals(null, TooShort.filter(null, 1));
+    }
     // don't worry about nulls inside the list ("Hello", null, "World")
 }
