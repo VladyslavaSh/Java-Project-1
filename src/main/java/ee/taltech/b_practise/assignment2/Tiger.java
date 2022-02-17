@@ -15,12 +15,12 @@ public class Tiger {
         this.age = age;
     }
 
-    public static void talk(){
+    public void talk(){
 
         System.out.println("Roar!");
     }
 
-    public static void action(String mood){
+    public void action(String mood){
 
         if(mood == "happy"){
             System.out.println("Action: " + "play");
