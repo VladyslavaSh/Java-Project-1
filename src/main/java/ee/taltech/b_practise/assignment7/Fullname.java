@@ -5,7 +5,6 @@ import java.util.stream.*;
 import java.util.List;
 
 public class Fullname {
-
     //todo A modify function to pass tests
     //todo B make your solution pretty
     //todo C use streams (extra)
