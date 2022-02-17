@@ -1,7 +1,10 @@
 package ee.taltech.b_practise.assignment3;
 
+import org.w3c.dom.ls.LSOutput;
+
+import java.util.stream.*;
 import java.util.List;
-import java.util.ArrayList;
+
 
 public class Multiplier {
     //todo A modify function to pass tests
@@ -19,16 +22,14 @@ public class Multiplier {
         if (params == null){
             return List.of();
         }
-        List<Integer> l = new ArrayList<>(params);
         if (multiplier == null){
             return params;
         }
         else{
-            for (int i = 0; i < l.size(); i++){
-                int a = l.get(i);
-                l.set(i, a * multiplier);
-            }
+            List<Integer> l = params.stream()
+                    .map(x -> x = x * multiplier)
+                    .collect(Collectors.toList());
+            return l;
         }
-        return l;
     }
 }
