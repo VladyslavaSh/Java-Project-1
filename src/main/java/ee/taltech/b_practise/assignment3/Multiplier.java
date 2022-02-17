@@ -1,10 +1,10 @@
 package ee.taltech.b_practise.assignment3;
 
 import org.w3c.dom.ls.LSOutput;
-
 import java.util.stream.*;
 import java.util.List;
 
+//done
 
 public class Multiplier {
     //todo A modify function to pass tests
