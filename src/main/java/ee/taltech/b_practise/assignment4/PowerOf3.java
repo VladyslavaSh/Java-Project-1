@@ -18,9 +18,8 @@ public class PowerOf3 {
         if (params == null) {
             return List.of();
         }
-        List<Integer> l = params.stream()
+        return params.stream()
                 .map(x -> x = x * x * x)
                 .collect(Collectors.toList());
-        return l;
     }
 }

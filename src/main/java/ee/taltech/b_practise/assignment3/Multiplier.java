@@ -26,10 +26,9 @@ public class Multiplier {
             return params;
         }
         else{
-            List<Integer> l = params.stream()
+            return params.stream()
                     .map(x -> x = x * multiplier)
                     .collect(Collectors.toList());
-            return l;
         }
     }
 }
