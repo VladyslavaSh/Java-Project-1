@@ -9,18 +9,19 @@ public class PseudoCode1 {
     //  pseudo code is "a notation resembling a simplified programming language, used in program design."
     //
     //todo A
-    // 1 if alarm is ring
-    // 2 wake up
-    // 3 else
-    // 4 sleep
-    // 5
-    // 6
-    // 7
-    // 8
-    // 9
-    // 10
-    // 11
-    // 12
+    // 1 if day != weekend
+    // 2 if alarm is ring
+    // 3 wake up
+    // 4 else
+    // 5 sleep
+    // 6 for drink in kitchen
+    // 7 if drink == tea
+    // 8 drink tea
+    // 9 else if drink == water
+    // 10 drink water
+    // 11 else
+    // 12 do not drink
+    // Breakfast breakfast = new Breakfast(drink, eat)
     //
 
     //todo B
