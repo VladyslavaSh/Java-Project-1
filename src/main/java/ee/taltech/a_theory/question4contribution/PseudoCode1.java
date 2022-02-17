@@ -9,10 +9,10 @@ public class PseudoCode1 {
     //  pseudo code is "a notation resembling a simplified programming language, used in program design."
     //
     //todo A
-    // 1
-    // 2
-    // 3
-    // 4
+    // 1 if alarm is ring
+    // 2 wake up
+    // 3 else
+    // 4 sleep
     // 5
     // 6
     // 7
