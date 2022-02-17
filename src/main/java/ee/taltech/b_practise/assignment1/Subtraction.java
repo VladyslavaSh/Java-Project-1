@@ -29,7 +29,7 @@ public class Subtraction {
         // c) overriding?
         // d) overreacting?
         // e) overlooking?
-        // Answer: с
+        // Answer: b
     }
 }
 
