@@ -33,6 +33,9 @@ public class Tiger {
         else if(Objects.equals(mood, "sad")){
             System.out.println("Action: " + "cry");
         }
+        else{
+            System.out.println("Action: " + "sleep");
+        }
     }
 
     public static void main(String[] args) {
