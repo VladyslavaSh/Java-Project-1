@@ -1,5 +1,7 @@
 package ee.taltech.b_practise.assignment2;
 
+import java.util.Objects;
+
 public class Tiger {
 
     //todo A add 2 instance fields to this class of different(!) Java types
@@ -22,13 +24,13 @@ public class Tiger {
 
     public void action(String mood){
 
-        if(mood == "happy"){
+        if(Objects.equals(mood, "happy")){
             System.out.println("Action: " + "play");
         }
-        else if(mood == "angry"){
+        else if(Objects.equals(mood, "angry")){
             System.out.println("Action: " + "bite");
         }
-        else if(mood == "sad"){
+        else if(Objects.equals(mood, "sad")){
             System.out.println("Action: " + "cry");
         }
     }
