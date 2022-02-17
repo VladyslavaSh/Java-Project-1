@@ -4,8 +4,6 @@ import org.w3c.dom.ls.LSOutput;
 import java.util.stream.*;
 import java.util.List;
 
-//done
-
 public class Multiplier {
     //todo A modify function to pass tests
     public static int function(int a, int b){

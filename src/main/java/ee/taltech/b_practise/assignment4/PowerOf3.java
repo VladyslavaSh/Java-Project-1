@@ -3,8 +3,6 @@ package ee.taltech.b_practise.assignment4;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//done
-
 public class PowerOf3 {
 
     //todo A modify function to pass tests
