@@ -9,9 +9,9 @@ public class Birthdays {
     // Java 8 added an improved date & time API.
     // New classes were added like LocalDate, Period and others.
     // What does API mean in this context?
-    // Answer:
-    //
-    //
+    // Answer: API (application programming interface) - an interface through which
+    // two parts of the system can interact. In this case, the two parts of the system are,
+    // on the one hand, Java8 and on the other hand this is program that uses Java 8.
     //
 
     //todo B
