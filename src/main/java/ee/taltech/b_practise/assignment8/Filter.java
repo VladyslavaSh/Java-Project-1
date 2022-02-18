@@ -1,5 +1,6 @@
 package ee.taltech.b_practise.assignment8;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Filter {
@@ -16,6 +17,19 @@ public class Filter {
      * zero 0, can be treated as positive
      */
     public PositivesAndNegatives filterToPositivesAndNegatives(List<Integer> numbers){
-        return new PositivesAndNegatives();
+
+        List<Integer> positives = new ArrayList<Integer>();
+        List<Integer> negatives = new ArrayList<Integer>();
+
+        for(Integer i: numbers){
+            if(i >= 0){
+                positives.add(i);
+            }
+            else{
+                negatives.add(i);
+            }
+        }
+
+        return new PositivesAndNegatives(positives, negatives);
     }
 }
