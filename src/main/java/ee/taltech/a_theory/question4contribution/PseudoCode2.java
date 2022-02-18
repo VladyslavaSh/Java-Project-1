@@ -9,6 +9,24 @@ public class PseudoCode2 {
     //  pseudo code is "a notation resembling a simplified programming language, used in program design."
     //
     //todo A
+    for (int hours_till_alarm = time_of_alarm - current_time; hours_till_alarm > 9; hours_till_alarm--){
+        person.makeTea;
+        if (deadline != tommorrow){
+            person.playVideogames;
+            person.cookDinner;
+        }
+        else{
+            person.orderFastFood;
+            person.turnOffNotificanions;
+            person.doHomework;
+        }
+    }
+    person.goToBad;
+    if (current_time < 02:00){
+        person.watchYouTube;
+    }
+    else {person.sleep;}
+
     // 1
     // 2
     // 3
