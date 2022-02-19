@@ -1,6 +1,8 @@
 package ee.taltech.c_extra.problem3;
 
 import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class Birthdays {
@@ -9,9 +11,9 @@ public class Birthdays {
     // Java 8 added an improved date & time API.
     // New classes were added like LocalDate, Period and others.
     // What does API mean in this context?
-    // Answer:
-    //
-    //
+    // Answer: API (application programming interface) - an interface through which
+    // two parts of the system can interact. In this case, the two parts of the system are,
+    // on the one hand, Java8 and on the other hand this is program that uses Java 8.
     //
 
     //todo B
@@ -27,12 +29,40 @@ public class Birthdays {
 
     public static void main(String[] args) {
 
+        LocalDate max_date = LocalDate.parse("1998-09-30");
+        LocalDate alex_date = LocalDate.parse("2002-02-10");
+        LocalDate vlada_date = LocalDate.parse("2004-08-27");
+
+        LocalDate oldest_date = oldest(List.of(max_date, alex_date, vlada_date));
+
+        String output = oldest_date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        System.out.println(output);
+
+        Period age = findAge(max_date);
+        System.out.println(age.getYears());
     }
 
     /**
      * returns the oldest/earliest date
      */
-    public static LocalDate oldest(List<LocalDate> birthDays){
-        return null;
+    public static LocalDate oldest(List<LocalDate> birthDays) {
+
+        LocalDate oldest = birthDays.get(0);
+
+        for (LocalDate i: birthDays) {
+            if (i.isBefore(oldest)) {
+                oldest = i;
+            }
+        }
+
+        return oldest;
+    }
+
+
+    public static Period findAge(LocalDate date) {
+
+        LocalDate today = LocalDate.now();
+
+        return Period.between(date, today);
     }
 }
