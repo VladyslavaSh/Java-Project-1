@@ -10,12 +10,12 @@ public class Dependency {
 
     //todo B
     // In the context of A, can you explain in your words what is a dependency?
-    // Answer:
+    // Answer: Dependency - an addition to the program (a library or package that we use).
     //
     //
     //todo C
     // Can this project "ics0014-2020-test1" become a dependency?
-    // Answer: Yes/No
+    // Answer: Yes
 
     public static void main(String[] args) {
         boolean notBlank = StringUtils.isNotBlank("       ");
