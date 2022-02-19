@@ -1,6 +1,7 @@
 package ee.taltech.c_extra.problem3;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class Birthdays {
@@ -31,13 +32,26 @@ public class Birthdays {
         LocalDate alex = LocalDate.parse("2002-02-10");
         LocalDate vlada = LocalDate.parse("2004-08-27");
 
-        //LocalDate find_oldest = oldest(List.of(max, alex, vlada));
+        LocalDate oldest_date = oldest(List.of(max, alex, vlada));
+
+        String output = oldest_date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        System.out.println(output);
+
     }
 
     /**
      * returns the oldest/earliest date
      */
     public static LocalDate oldest(List<LocalDate> birthDays){
-        return null;
+
+        LocalDate oldest = birthDays.get(0);
+
+        for(LocalDate i: birthDays){
+            if(i.isBefore(oldest)){
+                oldest = i;
+            }
+        }
+
+        return oldest;
     }
 }
