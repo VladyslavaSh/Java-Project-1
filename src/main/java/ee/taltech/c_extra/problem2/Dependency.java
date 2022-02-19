@@ -1,6 +1,6 @@
 package ee.taltech.c_extra.problem2;
 
-//import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 public class Dependency {
 
@@ -18,6 +18,6 @@ public class Dependency {
     // Answer: Yes/No
 
     public static void main(String[] args) {
-        //boolean notBlank = StringUtils.isNotBlank("       ");
+        boolean notBlank = StringUtils.isNotBlank("       ");
     }
 }
