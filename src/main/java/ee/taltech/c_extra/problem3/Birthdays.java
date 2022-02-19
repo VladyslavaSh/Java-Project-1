@@ -27,6 +27,11 @@ public class Birthdays {
 
     public static void main(String[] args) {
 
+        LocalDate max = LocalDate.parse("1998-09-30");
+        LocalDate alex = LocalDate.parse("2002-02-10");
+        LocalDate vlada = LocalDate.parse("2004-08-27");
+
+        //LocalDate find_oldest = oldest(List.of(max, alex, vlada));
     }
 
     /**
