@@ -21,22 +21,22 @@ public class PseudoCode1 {
     // 10 drink water
     // 11 else
     // 12 do not drink
-    // Breakfast breakfast = new Breakfast(drink, eat)
+    //
     //
 
     //todo B
     // Write pseudo codo for 2 tests for your code
     //
     //
+    // input = Monday
+    // expected = wake up
+    // actual = sleep
+    // test failed
     //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
+    // input = Tuesday
+    // expected = wake up
+    // actual = wake up
+    // test passed
     //
     //
 }
