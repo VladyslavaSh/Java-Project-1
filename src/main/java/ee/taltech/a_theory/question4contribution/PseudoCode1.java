@@ -9,33 +9,34 @@ public class PseudoCode1 {
     //  pseudo code is "a notation resembling a simplified programming language, used in program design."
     //
     //todo A
-    // 1
-    // 2
-    // 3
-    // 4
-    // 5
-    // 6
-    // 7
-    // 8
-    // 9
-    // 10
-    // 11
-    // 12
+    // 1 if day != weekend
+    // 2 if alarm is ring
+    // 3 wake up
+    // 4 else
+    // 5 sleep
+    // 6 for drink in kitchen
+    // 7 if drink == tea
+    // 8 drink tea
+    // 9 else if drink == water
+    // 10 drink water
+    // 11 else
+    // 12 do not drink
+    //
     //
 
     //todo B
     // Write pseudo codo for 2 tests for your code
     //
     //
+    // input = Monday
+    // expected = wake up
+    // actual = sleep
+    // test failed
     //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
+    // input = Tuesday
+    // expected = wake up
+    // actual = wake up
+    // test passed
     //
     //
 }
