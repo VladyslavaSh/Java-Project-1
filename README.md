@@ -2,12 +2,12 @@
 
 This is students project for Java Technologies course 
 
-###Team members:
+### Team members:
   * Aleksandrs Rimlins
   * Maksim Gorozhanko
   * Vladyslava Shekula
   
-###How to run project locally:
+### How to run project locally:
 
 * Clone repository using the `git clone`
 * Open the project in IDE (Intellij Idea or something similar)
